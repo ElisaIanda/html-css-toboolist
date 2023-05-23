@@ -11,7 +11,7 @@ h1{
 }
 
 .main-logo{
-    padding: 35px;
+    padding: 30px 20px;;
 }
 
 main{
@@ -34,22 +34,24 @@ main{
 
 #blue-button{
     background-color: #35bdea;
-    border-radius: 5px;
     border: 2px solid #35bdea;
     color: white;
+    border-radius: 5px;
     padding: 12px 20px;
     font-size: 16px;
     cursor: pointer;
+    width: auto;
 }
 
 #white-button{
     background-color: white;
     border: 2px solid gray;
-    border-radius: 5px;
     color: gray;
+    border-radius: 5px;
     padding: 12px 20px;
     font-size: 16px;
     cursor: pointer;
+    width: auto;
 }
 
 .main-container{
@@ -60,5 +62,87 @@ main{
     margin-top: 3px;
 }
 
-,
+details > summary {
+    padding: 10px 0;
+    cursor: pointer;
+    color: #514949;
+}
+
+details > div {
+    padding: 10px 0 5px 0;
+    color: #514949;
+}
+
+.check{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    block-size: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.uncheck{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    block-size: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button{
+    color: white;
+    border-radius: 13px;
+    padding: 6px;
+    border: 1px solid;
+    vertical-align: middle;
+    width: 80px;
+    font-size: 12px;
+
+}
+
+.skyblue-buttom-list{
+    background-color: #35bdea;
+    border-color: #35bdea;
+}
+
+#purple-buttom-list{
+    background-color: #af09ba;
+    border-color: #af09ba;
+}
+
+#green-buttom-list{
+    background-color: green;
+    border-color: green;
+}
+
+#orange-buttom-list{
+    background-color: #f88308;
+    border-color: #f88308;
+}
+
+#pink-buttom-list{
+    background-color: #dd6998;
+    border-color: #dd6998;
+}
+
+#lightgreen-buttom-list{
+    background-color: #57c862;
+    border-color: #57c862;
+}
+
+.widget{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+
+
 
